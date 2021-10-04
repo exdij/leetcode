@@ -1,10 +1,13 @@
 package com.company;
 
+import com.company.leetcode.algorithm_1.BinarySearch;
 import com.company.leetcode.top_interview_questions.KthLargest;
 import com.company.leetcode.top_interview_questions.WordPattern;
 import com.company.leetcode.top_interview_questions.array.BestTimeToBuyAndSellStock2;
 import com.company.leetcode.top_interview_questions.array.ContainsDuplicate;
 import com.company.leetcode.top_interview_questions.array.IntersectionOfTwoArrays2;
+import com.company.leetcode.top_interview_questions.array.MoveZeroes;
+import com.company.leetcode.top_interview_questions.array.PlusOne;
 import com.company.leetcode.top_interview_questions.array.RotateArray;
 import com.company.leetcode.top_interview_questions.array.SingleNumber;
 
@@ -23,8 +26,13 @@ public class Main {
 //        kthLargest.add(9);
 //        System.out.println(kthLargest.add(4));
 
-        System.out.println(WordPattern.wordPattern("abba", "dog cat cat dog"));
+//        System.out.println(WordPattern.wordPattern("abba", "dog cat cat dog"));
 
+//        BinarySearch.runExamples();
+//        PlusOne.runExamples();
+        MoveZeroes.runExamples();
     }
+
+
 
 }
