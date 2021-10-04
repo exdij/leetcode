@@ -38,29 +38,6 @@ public class MoveZeroes {
         System.out.println("Example4: " + ex4);
         System.out.println("Example5: " + ex5);
     }
-    public static void moveZeroes1(int[] nums) {
-        int len = nums.length;
-        if(len == 1) {
-            return;
-        }
-        int i = 0, c = 0;
-        while(true) {
-            if(i == len) {
-                int[] zeroes = new int[len];
-                System.arraycopy(zeroes,0,nums,len-c,c);
-                break;
-            }
-            if(nums[i] == 0) {
-                c++;
-                System.arraycopy(nums,i+1,nums,i,len-i-1);
-                if(nums[i] == 0) {
-                    i++;
-                }
-            } else {
-                i++;
-            }
-        }
-    }
 
     public static void moveZeroes(int[] nums) {
         int len = nums.length;
