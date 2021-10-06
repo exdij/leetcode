@@ -3,13 +3,9 @@ package com.company;
 import com.company.leetcode.algorithm_1.BinarySearch;
 import com.company.leetcode.top_interview_questions.KthLargest;
 import com.company.leetcode.top_interview_questions.WordPattern;
-import com.company.leetcode.top_interview_questions.array.BestTimeToBuyAndSellStock2;
-import com.company.leetcode.top_interview_questions.array.ContainsDuplicate;
-import com.company.leetcode.top_interview_questions.array.IntersectionOfTwoArrays2;
-import com.company.leetcode.top_interview_questions.array.MoveZeroes;
-import com.company.leetcode.top_interview_questions.array.PlusOne;
-import com.company.leetcode.top_interview_questions.array.RotateArray;
-import com.company.leetcode.top_interview_questions.array.SingleNumber;
+import com.company.leetcode.top_interview_questions.array.*;
+import com.company.leetcode.top_interview_questions.strings.Atoi;
+import com.company.leetcode.top_interview_questions.strings.ReverseString;
 
 public class Main {
 
@@ -30,8 +26,16 @@ public class Main {
 
 //        BinarySearch.runExamples();
 //        PlusOne.runExamples();
-        MoveZeroes.runExamples();
+//        MoveZeroes.runExamples();
+//        ReverseString.runExamples();
+        Atoi.runExamples();
+
+//        ValidSudoku.runExamples();
+
+
+
     }
+
 
 
 
