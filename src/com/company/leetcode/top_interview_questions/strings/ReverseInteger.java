@@ -35,6 +35,7 @@ public class ReverseInteger {
         System.out.println("Example 6: " + ex6);
     }
     public static int reverse(int x) {
+        int maxInt = Integer.MAX_VALUE;
         boolean negative = false;
         char[] arrD = Integer.toString(x).toCharArray();
         char[] arr;
@@ -53,6 +54,9 @@ public class ReverseInteger {
             }
         } else {
             return x;
+        }
+        if(arr.length == 10 && Character.getNumericValue(arr[9]) > 2) {
+            return 0;
         }
 
         int r = arr.length - 1;
@@ -75,7 +79,12 @@ public class ReverseInteger {
                 zero = false;
             }
             if(!zero) {
-                ret += Character.getNumericValue(arr[i]) * m;
+                 int a = Character.getNumericValue(arr[i]) * m;
+
+                if(maxInt - ret < a) {
+                    return 0;
+                }
+                    ret += a;
             }
             m /= 10;
         }
