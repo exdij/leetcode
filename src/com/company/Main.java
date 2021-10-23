@@ -5,6 +5,8 @@ import com.company.leetcode.top_interview_questions.KthLargest;
 import com.company.leetcode.top_interview_questions.WordPattern;
 import com.company.leetcode.top_interview_questions.array.*;
 import com.company.leetcode.top_interview_questions.strings.Atoi;
+import com.company.leetcode.top_interview_questions.strings.FirstUniqChar;
+import com.company.leetcode.top_interview_questions.strings.ReverseInteger;
 import com.company.leetcode.top_interview_questions.strings.ReverseString;
 
 public class Main {
@@ -28,8 +30,10 @@ public class Main {
 //        PlusOne.runExamples();
 //        MoveZeroes.runExamples();
 //        ReverseString.runExamples();
-        Atoi.runExamples();
+//        FirstUniqChar.runExamples();
 
+        ReverseInteger.runExamples();
+//        Atoi.runExamples();
 //        ValidSudoku.runExamples();
 
 
