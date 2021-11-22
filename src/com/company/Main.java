@@ -4,6 +4,7 @@ import com.company.leetcode.algorithm_1.BinarySearch;
 import com.company.leetcode.top_interview_questions.KthLargest;
 import com.company.leetcode.top_interview_questions.WordPattern;
 import com.company.leetcode.top_interview_questions.array.*;
+import com.company.leetcode.top_interview_questions.dynamic_programming.ClimbingStairs;
 import com.company.leetcode.top_interview_questions.strings.Atoi;
 import com.company.leetcode.top_interview_questions.strings.FirstUniqChar;
 import com.company.leetcode.top_interview_questions.strings.ReverseInteger;
@@ -32,7 +33,9 @@ public class Main {
 //        ReverseString.runExamples();
 //        FirstUniqChar.runExamples();
 
-        ReverseInteger.runExamples();
+        ClimbingStairs.runExamples();
+
+//        ReverseInteger.runExamples();
 //        Atoi.runExamples();
 //        ValidSudoku.runExamples();
 
