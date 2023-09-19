@@ -1,6 +1,8 @@
 package com.company;
 
 import com.company.leetcode.algorithm_1.BinarySearch;
+import com.company.leetcode.algorithm_1.FirstBadVersion;
+import com.company.leetcode.leetcode75.MergeStringAlternately;
 import com.company.leetcode.top_interview_questions.KthLargest;
 import com.company.leetcode.top_interview_questions.WordPattern;
 import com.company.leetcode.top_interview_questions.array.*;
@@ -33,13 +35,14 @@ public class Main {
 //        ReverseString.runExamples();
 //        FirstUniqChar.runExamples();
 
-        ClimbingStairs.runExamples();
+//        ClimbingStairs.runExamples();
 
 //        ReverseInteger.runExamples();
 //        Atoi.runExamples();
 //        ValidSudoku.runExamples();
+//        FirstBadVersion.runExamples();
 
-
+        MergeStringAlternately.run();
 
     }
 
